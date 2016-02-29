@@ -1,14 +1,14 @@
 {
 	"name": "Twitch.tv",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Twitch is the world’s leading video platform and community for gamers, with more than 100 million visitors per month. We connect gamers from around the world by allowing them to broadcast, watch, and chat with each other.",
-  "author":{
-	"name": "DonaldTurner"
-  },
-  "repository": {
-	"type":"git",
-	"url":"https://github.com/DonaldTurner/twitch.git"
-  },
+	"author":{
+		"name": "DonaldTurner"
+	},
+	"repository": {
+		"type":"git",
+		"url":"https://github.com/DonaldTurner/twitch.git"
+	},
 	"dependencies": {
 		"code-proxy": "^1.2.21",
 		"del": "^2.0.0",
@@ -36,8 +36,9 @@
 		"weinre": "^2.0.0-pre-I0Z7U9OV",
 		"ws": "^0.8.0"
 	},
-  "config": {
-	"backgroundColor":"#6441A5",
-	"icons": "icons"
-  }
+	"license": "GPL-3.0",
+	"config": {
+		"backgroundColor":"#6441A5",
+		"icons": "icons"
+	}
 }
