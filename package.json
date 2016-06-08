@@ -1,15 +1,14 @@
 {
-	"name": "Twitch.tv",
-	"version": "1.0.3",
-	"description": "Twitch is the world’s leading video platform and community for gamers, with more than 100 million visitors per month. We connect gamers from around the world by allowing them to broadcast, watch, and chat with each other.",
-	"author":{
-		"name": "DonaldTurner"
-	},
+	"name": "Twitch",
+	"version": "1.0.4",
+	"description": "Twitch is a live streaming video platform, focused on video gaming, including playthroughs of video games by users, broadcasts of esports competitions, and other gaming-related events.",
+	"author": "Boris Aleynikov",
 	"repository": {
 		"type":"git",
 		"url":"https://github.com/DonaldTurner/twitch.git"
 	},
 	"dependencies": {
+		"stb-referrer": "https://github.com/stbsdk/referrer.git",
 		"code-proxy": "^1.2.21",
 		"del": "^2.0.0",
 		"gettext-parser": "^1.1.1",
@@ -38,7 +37,23 @@
 	},
 	"license": "GPL-3.0",
 	"config": {
-		"backgroundColor":"#6441A5",
-		"icons": "icons"
+		"type": "app",
+		"category": "apps",
+		"backgroundColor": "#6441A5",
+		"name": "Twitch",
+		"legacy": true,
+		"description": "Twitch is a live streaming video platform, focused on video gaming, including playthroughs of video games by users, broadcasts of esports competitions, and other gaming-related events.",
+		"icons": {
+			"paths": {
+				"480": "img/480/",
+				"576": "img/576/",
+				"720": "img/720/",
+				"1080": "img/1080/"
+			},
+			"states": {
+				"normal": "icons/2015.png",
+				"active": "icons/2015.focus.png"
+			}
+		}
 	}
 }
